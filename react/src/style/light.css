@@ -126,11 +126,11 @@
 }
 
 .scaptcha-card-slider-control-success {
-  background-color: #35dd74;
+  background-color: rgb(53, 221, 116);
 }
 
 .scaptcha-card-slider-control-failure {
-  background-color: #e40808;
+  background-color: rgb(228, 8, 8);
 }
 
 .scaptcha-card-slider-container {
@@ -168,11 +168,11 @@
 }
 
 .scaptcha-card-slider-track-success {
-  background-color: #83f788;
+  background-color: rgb(131, 247, 136);
 }
 
 .scaptcha-card-slider-track-failure {
-  background-color: #ff3c3c;
+  background-color: rgb(255, 60, 60);
 }
 
 .scaptcha-card-slider-label {

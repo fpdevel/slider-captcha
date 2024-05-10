@@ -57,9 +57,8 @@ const createCaptcha = ({
     // Vertical offset
     top: randInt(sizes.PADDING, sizes.HEIGHT - (sizes.PUZZLE + sizes.PADDING)),
   };
-  return new Promise((resolve) => {
-    const ins = sharp(image)
-  		.resize({ width: sizes.WIDTH, height: sizes.HEIGHT })
+  return new Promise(() => {
+    const ins = sharp(image).resize({ width: sizes.WIDTH, height: sizes.HEIGHT });
     return ins
       .composite([
         {
@@ -75,11 +74,11 @@ const createCaptcha = ({
         const composed = await ins
           .composite([
             {
-              input: mask,
-        			blend: 'dest-in',
-        			top: location.top,
-        			left: location.left,
-        		},
+            input: mask,
+            blend: 'dest-in',
+            top: location.top,
+            left: location.left,
+          },
             {
               input: outline,
               blend: 'over',
@@ -95,15 +94,13 @@ const createCaptcha = ({
             })
             .png()
             .toBuffer()
-            .then((slider) => {
-              return {
+            .then((slider) => ({
                 data: {
                   background,
                   slider,
                 },
                 solution: location.left,
-              };
-            });
+              }));
         });
   });
 };
