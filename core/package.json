@@ -1,7 +1,7 @@
 {
-  "name": "@slider-captcha/core",
+  "name": "@fpdevel/slider-captcha-core",
   "version": "1.0.0",
-  "description": "User-friendly puzzle slider captcha for React and Express",
+  "description": "User-friendly puzzle slider captcha for React and Express now dependency mantained",
   "main": "index.js",
   "files": [
     "/lib",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrsch/slider-captcha.git"
+    "url": "git+https://github.com/fpdevel/slider-captcha.git"
   },
   "keywords": [
     "react",
@@ -27,12 +27,12 @@
     "slide",
     "express"
   ],
-  "author": "adrsch",
+  "author": "fpdevel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adrsch/slider-captcha/issues"
+    "url": "https://github.com/fpdevel/slider-captcha/issues"
   },
-  "homepage": "https://github.com/adrsch/slider-captcha#readme",
+  "homepage": "https://github.com/fpdevel/slider-captcha#readme",
   "dependencies": {
     "prop-types": "^15.7.2",
     "sharp": "^0.25.4",

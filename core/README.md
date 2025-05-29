@@ -1,3 +1,8 @@
+
+# CREDITS
+this is a simple forked version of the original **@slider-captcha** made by **adrsch** (https://github.com/adrsch/slider-captcha).
+
+
 # @slider-captcha
 Generate a puzzle slider captcha and display with React component.\
 ![](https://raw.githubusercontent.com/adrsch/slider-captcha/master/demo.gif)
