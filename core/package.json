@@ -1,6 +1,6 @@
 {
     "name": "@fpdevel/slider-captcha-core",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "User-friendly puzzle slider captcha for React and Express now dependency mantained",
     "main": "index.js",
     "files": [
